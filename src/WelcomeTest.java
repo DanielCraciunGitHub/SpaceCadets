@@ -51,7 +51,7 @@ class WelcomeTest {
 	@DisplayName("Test printing of \"Welcome to COMP1202!\"")
 	public void testMain(){
 		try {
-			Welcome.main(null);
+			Hello.main(null);
 		} catch (Exception e) {
 			fail("threw an exception");
 		}
